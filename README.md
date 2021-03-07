@@ -13,5 +13,6 @@ The tweet is sent out in this format:
 New Music Out Now:
 
 Artist_Name - Album/Song_Name
+.
      Album/Song_Cover    
 "
