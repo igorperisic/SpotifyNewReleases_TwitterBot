@@ -6,13 +6,3 @@ new releases from Spotify. The only information this program needs are Artist_Na
 Album_Name and Release_date are all stored in a list, however the Album_Cover is downloaded as a jpeg file to a local PC. Once they are stored in a list,
 the program compares todays date to Release_date for all fifty releases. If these two dates are equal to each other, a tweet gets sent out using Twitters API and tweepy.
 Finally, once the program is finished it deletes all downloaded album covers. 
-
-The tweet is sent out in this format: 
-
-"
-New Music Out Now:
-
-Artist_Name - Album/Song_Name
-.
-     Album/Song_Cover    
-"
